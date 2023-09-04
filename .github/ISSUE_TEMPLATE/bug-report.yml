@@ -9,6 +9,7 @@ body:
       description: A clear and concise description of what you expected to happen.
       placeholder: I expected...
       value: ""
+    validations:
       required: true
   - type: textarea
     id: actual-behavior
@@ -17,6 +18,7 @@ body:
       description: A clear and concise description of what actually happened.
       placeholder: I actually...
       value: ""
+    validations:
       required: true
   - type: textarea
     id: steps-to-reproduce
@@ -25,7 +27,6 @@ body:
       description: Steps to reproduce the behavior.
       placeholder: 1. Go to '...'
       value: ""
-      required: true
   - type: textarea
     id: other-info
     attributes:
@@ -33,4 +34,3 @@ body:
       description: Any other information about the problem.
       placeholder: Other info...
       value: ""
-      required: false
